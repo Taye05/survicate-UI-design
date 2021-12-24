@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(13, 14, 19);
+    color: white;
+}
+
+/* section of the page */
+section {
+    list-style: none;
+    padding: 30px;
+    /* display: flex; */
+    /* border: 1px solid red; */
+  
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    /* height: 30%; */
+}
+
+.survicate {
+    font-size: 40px;
+    width: 20%;
+    /* border: 1px solid purple; */
+    justify-content: center;
+    align-items: center;
+    display: flex;
+   
+}
+
+.nav-links {
+    display: flex;
+    /* border: 1px solid red; */
+    padding: 15px;
+    justify-content: space-around;
+    align-items: center;
+    width: 60%;
+    cursor: pointer;
+}
+
+.nav-links li {
+    font-size: 15px;
+}
+
+.nav-links > li > img {
+    color: white;
+    /* border: 1px solid white; */
+    font-size: 5px;
+}
+
+.img {
+    color: white;
+}
+
+.log-in {
+    display: flex;
+    /* border: 1px solid blue; */
+    width: 20%;
+    justify-content: space-around;
+    align-items: center;
+    cursor: pointer;
+}
+
+.log-in li {
+    font-size: 15px;
+}
+
+span {
+    border: 1px solid white;
+    background-color: purple;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+/* main section of the page */
+main {
+    /* border: 1px solid red; */
+    padding: 150px;
+    /* justify-content: center; */
+    /* align-items: center; */
+    text-align: center;
+    /* justify-content: space-around; */
+}
+
+.main-content div {
+    justify-content: space-between;
+    /* border: 1px solid red; */
+    padding: 10px;
+}
+
+.main-content > div > li > span {
+    padding: 10px;
+    border: 1px solid red;
+}
