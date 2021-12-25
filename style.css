@@ -102,7 +102,7 @@ main {
 .main-content > div > li > span {
     background-color: rgba(43, 10, 134, 0.466);
     border-radius: 30px;
-    padding: 0 80px;
+    padding: 10px 50px;
     height: 10px;
 }
 
@@ -110,3 +110,5 @@ main {
     font-size: 50px;
     font-weight: 800;
 }
+
+
