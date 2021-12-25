@@ -6,6 +6,7 @@
 body {
     background-color: rgb(13, 14, 19);
     color: white;
+    font-family: 'Poppins', sans-serif;
 }
 
 /* section of the page */
@@ -30,6 +31,9 @@ header {
     justify-content: center;
     align-items: center;
     display: flex;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+   
    
 }
 
@@ -44,7 +48,8 @@ header {
 }
 
 .nav-links li {
-    font-size: 15px;
+    font-size: 13px;
+    display: flex;
 }
 
 .nav-links > li > img {
@@ -67,12 +72,12 @@ header {
 }
 
 .log-in li {
-    font-size: 15px;
+    font-size: 13px;
 }
 
-span {
+.log-in > li:nth-child(2) > span {
     border: 1px solid white;
-    background-color: purple;
+    background-color: rgba(43, 10, 134, 0.466);
     border-radius: 30px;
     padding: 10px;
 }
@@ -80,7 +85,7 @@ span {
 /* main section of the page */
 main {
     /* border: 1px solid red; */
-    padding: 150px;
+    padding: 80px;
     /* justify-content: center; */
     /* align-items: center; */
     text-align: center;
@@ -91,9 +96,17 @@ main {
     justify-content: space-between;
     /* border: 1px solid red; */
     padding: 10px;
+    
 }
 
 .main-content > div > li > span {
-    padding: 10px;
-    border: 1px solid red;
+    background-color: rgba(43, 10, 134, 0.466);
+    border-radius: 30px;
+    padding: 0 80px;
+    height: 10px;
+}
+
+.main-content h1 {
+    font-size: 50px;
+    font-weight: 800;
 }
